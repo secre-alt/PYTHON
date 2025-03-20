@@ -5,10 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.ico'%}">
     <script src="{% static 'js/main.js' %}" defer></script>
-    <title></title>
+    <title>
+        {% block title %}
+            My Project
+        {% endblock %}
+    </title>
 </head>
 <body>
-    
+    <nav>
+        <a href="/"> Home</a>
+        <a href="/about"> About</a>
+        <a href="/post"> Post</a>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
 </body>
 </html>
