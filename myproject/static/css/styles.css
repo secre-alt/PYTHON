@@ -38,7 +38,9 @@ h1 {
     margin: 20px auto;
     padding: 20px;
 }
-
+p {
+    text-align: center;
+}
 .container a {
     color: #ffd700;
     text-decoration: none;
