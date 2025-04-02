@@ -29,8 +29,9 @@ nav a:hover {
 h1 {
     text-align: center;
     font-size: 28px;
-    margin-top: 20px;
+    margin-top: 80px;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 .container {
     text-align: center;
@@ -40,6 +41,7 @@ h1 {
 }
 p {
     text-align: center;
+    font-size: 18px;
 }
 .container a {
     color: #ffd700;
@@ -49,4 +51,24 @@ p {
 
 .container a:hover {
     text-decoration: underline;
+}
+
+.article {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 700px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.article h2 {
+    color: #ffd700;
+}
+
+.article p {
+    font-size: 16px;
+    text-align: center;
+    color: #ccc;
 }
